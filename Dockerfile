@@ -1,7 +1,7 @@
 FROM ubuntu:xenial
 
 ENV BYOND_MAJOR=512 \
-    BYOND_MINOR=1431
+    BYOND_MINOR=1432
 
 
 RUN dpkg --add-architecture i386 \
